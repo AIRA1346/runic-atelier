@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="408" height="504" viewBox="0 0 408 504" role="img" aria-labelledby="title description">
+<title id="title">RunicAtelier symbol / gold</title><desc id="description">True vector artwork; all lettering is outlined. Transparent background.</desc>
+<g id="symbol" fill="#E8C477" transform="translate(40 40)"><path id="diamond" d="M164,0 L185,31 L164,62 L143,31 Z"/><path id="outer-arch" d="M30,398 V204 A134,134 0 0 1 298,204 V398 H284 V204 A120,120 0 0 0 44,204 V398 Z"/><path id="inner-arch" d="M83,398 V204 A81,81 0 0 1 164,123 V137 A67,67 0 0 0 97,204 V398 Z"/><path id="rune-r" d="M142,190 L246,250.044428 L156.57403,301.674536 L244.949747,390.050253 L235.050253,399.949747 L156,320.899495 L156,398 L142,398 Z M156,214.248711 L218,250.044428 L156,285.840145 Z" fill-rule="evenodd"/><path id="split-footing" d="M0,410 H117 V424 H0 Z M211,410 H328 V424 H211 Z"/></g>
+</svg>

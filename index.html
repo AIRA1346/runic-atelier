@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Runic Atelier — 룬 아뜰리에</title>
+  <meta name="description" content="가치 있다고 믿는 것을, 오래 남는 방식으로 직접 만드는 1인 독립 공방 Runic Atelier. AKASHA, ARCHE, Pharos를 만듭니다.">
+  <meta property="og:title" content="Runic Atelier — 룬 아뜰리에">
+  <meta property="og:description" content="We craft lasting, user-owned tools we truly believe in — AKASHA, ARCHE, and Pharos.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aira1346.github.io/runic-atelier/">
+  <link rel="icon" type="image/svg+xml" href="./assets/runicatelier-symbol-gold.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&family=Noto+Serif+KR:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand-mini" href="#top" aria-label="Runic Atelier Home">
+        <img class="brand-mini-symbol symbol-light" src="./assets/runicatelier-symbol-black.svg" alt="" width="24" height="24">
+        <img class="brand-mini-symbol symbol-dark" src="./assets/runicatelier-symbol-gold.svg" alt="" width="24" height="24">
+        <span class="brand-mini-name">Runic Atelier</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#philosophy" data-i18n="navPhilosophy">철학</a>
+        <a href="#projects" data-i18n="navProjects">프로젝트</a>
+        <a href="#workshop" data-i18n="navWorkshop">공방 소식</a>
+      </nav>
+
+      <div class="header-controls">
+        <div class="lang-switch" role="group" aria-label="Language switch">
+          <button type="button" class="lang-btn is-active" data-lang="ko" aria-pressed="true">KO</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button type="button" id="theme-toggle" class="icon-btn" aria-label="Toggle color theme" title="Toggle theme">
+          <span class="theme-icon" aria-hidden="true">☾</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-lockup-wrap">
+          <img class="hero-lockup lockup-light" src="./assets/runicatelier-lockup-gold-ink.svg" alt="Runic Atelier" width="240" height="224">
+          <img class="hero-lockup lockup-dark" src="./assets/runicatelier-lockup-gold-ivory.svg" alt="Runic Atelier" width="240" height="224">
+        </div>
+
+        <p class="hero-eyebrow" data-i18n="heroEyebrow">INDEPENDENT ONE-PERSON SOFTWARE WORKSHOP</p>
+        <h1 class="hero-title" data-i18n="heroTitle">가치 있다고 믿는 것을,<br>오래 남는 방식으로 직접 만듭니다.</h1>
+        <p class="hero-subtitle" data-i18n="heroSubtitle">
+          광고와 강제 구독 없이, 사람이 자기 기억과 세계의 주인이 되는 조용하고 단단한 도구를 깎아 만드는 1인 공방 <strong>룬 아뜰리에(Runic Atelier)</strong>입니다.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects" data-i18n="heroCtaPrimary">프로젝트 둘러보기</a>
+          <a class="btn btn-secondary" href="https://wiki.akashalibrary.com" target="_blank" rel="noopener noreferrer" data-i18n="heroCtaSecondary">ARCHE 공개 웹 위키 열기 ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="philosophy" class="section section-tinted">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-kicker" data-i18n="philKicker">OUR PRINCIPLES</p>
+          <h2 class="section-title" data-i18n="philTitle">공방이 지키는 세 가지 기준</h2>
+        </div>
+
+        <div class="principles-grid">
+          <article class="principle-card">
+            <span class="principle-num">01</span>
+            <h3 data-i18n="p1Title">사람이 주인이 되는 기록과 세계</h3>
+            <p data-i18n="p1Body">플랫폼이나 특정 AI에 종속되지 않도록, 평문 원본·출처·판본 이력을 사용자와 공동체 손에 오래 남깁니다.</p>
+          </article>
+
+          <article class="principle-card">
+            <span class="principle-num">02</span>
+            <h3 data-i18n="p2Title">낮은 유지 부담과 정직한 지속성</h3>
+            <p data-i18n="p2Body">강제 광고나 원치 않는 과금 대신, 1인 공방이 오래 책임지고 운영할 수 있는 단단하고 가벼운 구조를 설계합니다.</p>
+          </article>
+
+          <article class="principle-card">
+            <span class="principle-num">03</span>
+            <h3 data-i18n="p3Title">결과보다 투명한 제작 과정</h3>
+            <p data-i18n="p3Body">직접 쓰지 않아도 응원할 만한 의미를 지향하며, 왜 이런 선택을 했는지 고민과 시행착오까지 솔직하게 기록합니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-kicker" data-i18n="projKicker">PROJECTS</p>
+          <h2 class="section-title" data-i18n="projTitle">만들고 있는 것들</h2>
+          <p class="section-lead" data-i18n="projLead">개인의 평생 기억을 지키는 서고부터, 여럿이 함께 짓는 판타지 세계와 나만의 선별 나침반까지.</p>
+        </div>
+
+        <div class="projects-stack">
+          <!-- AKASHA -->
+          <article class="project-card project-akasha">
+            <div class="project-emblem-col">
+              <div class="emblem-frame emblem-akasha">
+                <img src="./assets/akasha-mark.png" alt="AKASHA Emblem" width="96" height="96">
+              </div>
+              <span class="project-tag" data-i18n="akashaTag">1호 프로젝트 · 개인 서고</span>
+            </div>
+
+            <div class="project-content">
+              <div class="project-top-row">
+                <div>
+                  <h3 class="project-name">AKASHA <span class="project-subname">아카샤</span></h3>
+                </div>
+                <span class="status-pill status-live" data-i18n="akashaStatus">Steam 출시 중 · v1.8</span>
+              </div>
+
+              <p class="project-summary" data-i18n="akashaDesc">
+                사람이 자기 삶과 자신이 바라본 세계를 잃지 않도록 지켜 주는 평생의 개인 아카이브입니다. 감상·일기·메모를 특정 서비스에 가두지 않고 사용자 소유의 원본 서고로 보존하며, 5개 언어를 지원합니다.
+              </p>
+
+              <ul class="project-points">
+                <li data-i18n="akashaPt1">사용자 소유 평문 원본 서고 &amp; 출처·개정 이력 보존</li>
+                <li data-i18n="akashaPt2">Steam 정식 출시(한국어·영어·일본어·중국어 간체/번체)</li>
+                <li data-i18n="akashaPt3">Google Drive Vault 다중 PC 연동 &amp; 에이전트 기억 바닥 고도화 중</li>
+              </ul>
+
+              <div class="project-links">
+                <a class="btn btn-accent-akasha" href="https://akashalibrary.com/" target="_blank" rel="noopener noreferrer" data-i18n="akashaLinkWeb">AKASHA 공식 사이트 ↗</a>
+                <a class="btn btn-outline" href="https://store.steampowered.com/app/4677560/AKASHA/" target="_blank" rel="noopener noreferrer" data-i18n="akashaLinkSteam">Steam 스토어 ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ARCHE -->
+          <article class="project-card project-arche">
+            <div class="project-emblem-col">
+              <div class="emblem-frame emblem-arche">
+                <img src="./assets/arche-mark.png" alt="ARCHE Emblem" width="96" height="96">
+              </div>
+              <span class="project-tag" data-i18n="archeTag">2호 프로젝트 · 공동 세계관</span>
+            </div>
+
+            <div class="project-content">
+              <div class="project-top-row">
+                <div>
+                  <h3 class="project-name">ARCHE <span class="project-subname">아르케</span></h3>
+                </div>
+                <span class="status-pill status-review" data-i18n="archeStatus">Steam 심사 중 · 웹 위키 라이브</span>
+              </div>
+
+              <p class="project-summary" data-i18n="archeDesc">
+                마법과 종족, 생태와 법칙의 근거를 함께 토론하며 하나의 일관된 판타지 세계를 쌓아 올리는 무료 협업 위키 앱입니다. Steam 앱에서 자동 로그인으로 편집 제안과 토론에 참여하고, 누구나 웹에서 로그인 없이 감상할 수 있습니다.
+              </p>
+
+              <ul class="project-points">
+                <li data-i18n="archePt1">120여 개 기본 정본 문서 · 8개 세계관 도메인 · 35종족 다축 비교 표</li>
+                <li data-i18n="archePt2">문단별 편집 제안 · 줄 단위 Diff 비교 · 세계관 정합성 자가 점검 허브</li>
+                <li data-i18n="archePt3">계정 없이 바로 읽는 공개 웹 위키 &amp; 한국어·영어 UI 제자리 전환</li>
+              </ul>
+
+              <div class="project-links">
+                <a class="btn btn-accent-arche" href="https://wiki.akashalibrary.com" target="_blank" rel="noopener noreferrer" data-i18n="archeLinkWiki">공개 웹 위키 감상하기 ↗</a>
+                <a class="btn btn-outline" href="https://aira1346.github.io/arche-legal/" target="_blank" rel="noopener noreferrer" data-i18n="archeLinkLegal">정책 · 약관 안내 ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Pharos -->
+          <article class="project-card project-pharos">
+            <div class="project-emblem-col">
+              <div class="emblem-frame emblem-pharos" aria-hidden="true">
+                <svg class="pharos-svg" viewBox="0 0 64 64" width="60" height="60" fill="none">
+                  <circle cx="32" cy="32" r="26" stroke="currentColor" stroke-width="2" opacity="0.35"/>
+                  <polygon points="32,10 38,26 54,32 38,38 32,54 26,38 10,32 26,26" stroke="currentColor" stroke-width="2.2" fill="rgba(201,164,92,0.18)"/>
+                  <circle cx="32" cy="32" r="4" fill="currentColor"/>
+                </svg>
+              </div>
+              <span class="project-tag" data-i18n="pharosTag">Runic Atelier Lab</span>
+            </div>
+
+            <div class="project-content">
+              <div class="project-top-row">
+                <div>
+                  <h3 class="project-name">Pharos <span class="project-subname">파로스</span></h3>
+                </div>
+                <span class="status-pill status-lab" data-i18n="pharosStatus">정적 웹 앱 라이브 · 600+ 항목</span>
+              </div>
+
+              <p class="project-summary" data-i18n="pharosDesc">
+                평균 별점과 광고에 휘둘리지 않고, 나만의 가중치와 절대 거름 조건(강제 광고·확률형 아이템·불투명 크레딧 등)으로 앱·게임·AI 도구를 브라우저 안에서 바로 선별하는 정적 웹 나침반입니다.
+              </p>
+
+              <div class="project-links">
+                <a class="btn btn-outline" href="https://aira1346.github.io/pharos/" target="_blank" rel="noopener noreferrer" data-i18n="pharosLinkKo">Pharos 열기 (한국어) ↗</a>
+                <a class="btn btn-outline" href="https://aira1346.github.io/pharos/?lang=en" target="_blank" rel="noopener noreferrer" data-i18n="pharosLinkEn">Open Pharos (English) ↗</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="workshop" class="section section-tinted">
+      <div class="container workshop-grid">
+        <div class="workshop-story">
+          <p class="section-kicker" data-i18n="wsKicker">MAKER &amp; BUILD IN PUBLIC</p>
+          <h2 class="section-title" data-i18n="wsTitle">만드는 과정도 함께 기록합니다</h2>
+          <p class="workshop-body" data-i18n="wsBody1">
+            룬 아뜰리에는 대학 마지막 학기를 보내고 있는 1인 개발자가 운영하는 작은 독립 공방입니다. 화려한 마케팅 문구 대신, 왜 이런 구조를 선택했고 어떤 시행착오를 겪었는지 개발 과정과 철학을 꾸준히 나누고 있습니다.
+          </p>
+          <p class="workshop-body" data-i18n="wsBody2">
+            제품 제안, 버그 제보, 협업 문의, 혹은 그냥 응원 한마디까지 언제든 편하게 연락해 주세요.
+          </p>
+          <div class="contact-box">
+            <span class="contact-label" data-i18n="wsContactLabel">공식 개발사 연락처</span>
+            <a class="contact-email" href="mailto:runicatelier@gmail.com">runicatelier@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="workshop-channels">
+          <h3 class="channels-title" data-i18n="chTitle">공방 채널</h3>
+          <p class="channels-note" data-i18n="chNote">개발 일지와 쇼케이스 영상, 오픈 리소스를 모아 두는 공간입니다.</p>
+          <div id="channel-list" class="channel-list"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img class="brand-mini-symbol symbol-light" src="./assets/runicatelier-symbol-black.svg" alt="" width="20" height="20">
+        <img class="brand-mini-symbol symbol-dark" src="./assets/runicatelier-symbol-gold.svg" alt="" width="20" height="20">
+        <span>© 2026 Runic Atelier</span>
+      </div>
+
+      <div class="footer-links">
+        <a href="mailto:runicatelier@gmail.com">runicatelier@gmail.com</a>
+        <a href="https://aira1346.github.io/arche-legal/" target="_blank" rel="noopener noreferrer" data-i18n="footerLegal">ARCHE 법적 안내</a>
+        <a href="https://github.com/AIRA1346" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="./assets/Liberation-Fonts-Copyright-and-OFL.txt" target="_blank" rel="noopener noreferrer" data-i18n="footerLicense">폰트 라이선스</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
